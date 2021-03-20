@@ -1,0 +1,146 @@
+/*General role*/
+@media screen and (min-width:1024px){
+    .container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width:768px){
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+html{
+    min-height: 100%;
+    /*box-sizing: border-box;*/
+    border-top:10px solid #381696
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    margin-left:40px;
+}
+a{
+    text-decoration: none;
+    
+}
+h2{
+    margin-top:0;
+    margin-bottom: 19px;
+}
+
+.header{
+   
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    padding: 20px 0;
+    margin-top: 35px;
+}
+
+.header .title  a{
+    margin-left: 40px;
+    color:#381696;
+    font-weight: 900;
+    text-transform: uppercase;
+    
+}
+
+.header .navig{
+
+    margin-right: 60px;
+    justify-content: space-between;
+    font-weight: 300;
+}
+.header .navig .content-nav{
+    margin-left: 20px;
+    color:grey
+}
+
+.subheader{
+    margin-left:40px;
+    padding:0 0 64px;
+}
+.subheader .content-1{
+    font-size:36px;
+    font-weight: 900;
+    font:bold; 
+    margin-bottom: 0px;  
+}
+.subheader .content-2{
+    font-size:18px;
+    font-weight: 300;
+    line-height: 1;
+    font:bold;   
+    margin-bottom: 40px;
+}
+
+.subheader .button{
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 9px;
+    border-color: #381696;
+    padding:18px 27px;
+    background-color: #381696;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    margin-left:40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 32px;
+    margin-top: 32px;
+    margin-right:40px;
+}
+
+.container .card{
+    display: grid;
+    border: 1px solid #eee;
+    border-radius: 9px;
+    box-shadow: 0 0 30px #d5d5d5;
+    overflow: hidden;
+    max-width: 1140px;
+}
+.card{
+    display: grid;
+    background-color: var(--card-bg);
+    border-radius: 9px;
+    border: 1px solid var(--card-bdr);
+    box-shadow: 0 0 30px var(--card-shadow);
+    overflow: hidden;
+    line-height: 1.5;
+}
+.container .card .title{
+    margin-bottom: .3rem;
+}
+.container .card .title .link{
+    color:black;
+    font-size: 1.2rem;
+    list-style: height 0.5em; 
+}
+
+.container .card .date{
+    font-weight: 100;
+    font-size: .8rem;
+    color:gray;
+}
+
+.container img{
+    max-width: 100%;
+    padding: 0 0;
+}
+
+.titre1{
+    padding-left:40px;
+}
+
+div .card_details{
+    padding: 24px;
+}
+
+.footer{
+    text-align: center;
+    padding:100px 0 0;
+}
+
